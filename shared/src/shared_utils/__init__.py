@@ -10,5 +10,6 @@ except PackageNotFoundError:  # editable/uninstalled dev fallback
 
 # Top-level helpers
 from .json_read import load_json
+from .chart_transplant import transplant_charts
 
-__all__ = ["load_json", "__version__"]
+__all__ = ["load_json", "transplant_charts", "__version__"]
