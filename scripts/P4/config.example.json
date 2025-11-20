@@ -1,0 +1,7 @@
+{
+    "client_name": "REQUIRED",
+    "depot_path_prefix": "//depot/",
+    "depot_path_suffix": "",
+    "outfile_path": "",
+    "outfile_prefix": ""
+}

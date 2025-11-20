@@ -1,0 +1,20 @@
+[project]
+name = "shared-utils"
+version = "0.1.0"
+description = "Small helpers shared by scripts"
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [{ name = "Elena Rughi" }]
+
+# Keep dependencies light; heavier stuff can go in extras
+dependencies = []
+
+[project.optional-dependencies]
+#data = ["pandas>=2.3"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
