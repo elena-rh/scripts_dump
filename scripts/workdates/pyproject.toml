@@ -1,0 +1,16 @@
+[project]
+name = "workdates"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.3.5",
+    "shared-utils",
+    "workalendar>=17.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv.sources]
+shared-utils = { path = "../../shared", editable = true }
