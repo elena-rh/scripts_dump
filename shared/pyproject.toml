@@ -6,11 +6,12 @@ readme = "README.md"
 requires-python = ">=3.13"
 authors = [{ name = "Elena Rughi" }]
 
-# Keep dependencies light; heavier stuff can go in extras
+# Keep dependencies light; heavier stuff can go in optional-dependencies
 dependencies = []
 
+# install with: uv pip install .[data]
 [project.optional-dependencies]
-#data = ["pandas>=2.3"]
+# data = ["numpy", "pandas>=2.3"]
 
 [build-system]
 requires = ["setuptools>=68"]
